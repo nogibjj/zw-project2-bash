@@ -35,7 +35,7 @@ Now we can use our command line tool in the Cloud9:
 
 <img width="846" alt="截屏2022-10-09 下午6 39 23" src="https://user-images.githubusercontent.com/112585430/194782765-7d68635c-ef5f-4db8-9711-0ca94a60298b.png">
 
-### Then type the following code in the AWS repo and it should give the pulling data.
+### Then type the following code in the Cloud9 repo and it should give the pulling data.
 
 `docker run -it 766481746749.dkr.ecr.us-east-1.amazonaws.com/p2zw277:latest /bin/bash read_n.sh brandirectory-ranking-global-2022.csv`
 
