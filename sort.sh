@@ -3,7 +3,7 @@
 sort_record_no_header() {
     while read line
     do
-      echo "Record is : $line"
+      echo "The brand information is : $line"
     done < <(tail -n +2 $1)
 }
 sort_record_no_header brandirectory-ranking-global-2022.csv
