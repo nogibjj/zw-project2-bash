@@ -28,4 +28,20 @@ to pull the data from the repository.
 
 <img width="1194" alt="截屏2022-10-09 下午6 07 14" src="https://user-images.githubusercontent.com/112585430/194781692-623e6a17-4558-4d01-b4b6-e3e92fb4e67a.png">
 
+Now we can use our command line tool in the Cloud9:
+### First make sure that we have login to dockerhub and aws:
+
+`docker login -u zw277 -p $DOCKER_HUB` 
+
+<img width="846" alt="截屏2022-10-09 下午6 39 23" src="https://user-images.githubusercontent.com/112585430/194782765-7d68635c-ef5f-4db8-9711-0ca94a60298b.png">
+
+### Then
+
+`docker run -it 766481746749.dkr.ecr.us-east-1.amazonaws.com/p2zw277:latest /bin/bash read_n.sh brandirectory-ranking-global-2022.csv`
+
+`docker run -it 766481746749.dkr.ecr.us-east-1.amazonaws.com/p2zw277:latest /bin/bash sort.sh brandirectory-ranking-global-2022.csv`
+
+`docker run -it 766481746749.dkr.ecr.us-east-1.amazonaws.com/p2zw277:latest /bin/bash neat.sh brandirectory-ranking-global-2022.csv`
+
+### To obtain three ways of accessing the top 100 global brands with branditory data in 2022.
 
