@@ -16,6 +16,16 @@ to pull the data from the repository.
 
 ### Run in AWS Cloud9
 
+`aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin 766481746749.dkr.ecr.us-east-1.amazonaws.com`
+
+<img width="1194" alt="截屏2022-10-09 下午6 06 05" src="https://user-images.githubusercontent.com/112585430/194781645-4dec0bca-74c2-4af5-bbba-d7e64d464a6c.png">
+
 `docker tag 766481746749.dkr.ecr.us-east-1.amazonaws.com/zw277/project2 766481746749.dkr.ecr.us-east-1.amazonaws.com/p2zw277:latest`
 
-<img width="1354" alt="screenshot" src="https://user-images.githubusercontent.com/112585430/194781439-5d8a618c-a813-40a0-a9c3-627de46d4c6f.png">
+<img width="1205" alt="截屏2022-10-09 下午6 03 50" src="https://user-images.githubusercontent.com/112585430/194781562-cbdfbfb9-0a44-459c-9ba8-75dff27a9dcf.png">
+
+`docker push 766481746749.dkr.ecr.us-east-1.amazonaws.com/p2zw277:latest`
+
+<img width="1194" alt="截屏2022-10-09 下午6 07 14" src="https://user-images.githubusercontent.com/112585430/194781692-623e6a17-4558-4d01-b4b6-e3e92fb4e67a.png">
+
+
