@@ -2,3 +2,12 @@ pandasql
 typer
 psycopg2
 tabulate
+datasets
+transformers
+pylint
+pytest
+black
+click
+streamlit
+gradio
+ipython
