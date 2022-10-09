@@ -13,3 +13,9 @@ In project 2, I created a command line tool to help us pull the data of top 100 
 `docker run -it b20ff7e1f60f /bin/bash neat.sh brandirectory-ranking-global-2022.csv` 
 
 to pull the data from the repository.
+
+### Run in AWS Cloud9
+
+`docker tag 766481746749.dkr.ecr.us-east-1.amazonaws.com/zw277/project2 766481746749.dkr.ecr.us-east-1.amazonaws.com/p2zw277:latest`
+
+<img width="1354" alt="screenshot" src="https://user-images.githubusercontent.com/112585430/194781439-5d8a618c-a813-40a0-a9c3-627de46d4c6f.png">
